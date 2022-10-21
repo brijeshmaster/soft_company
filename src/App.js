@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import Data from "./component/Data";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
 
-export default App
+
+  return (
+    <div>
+    <Data />
+    
+    </div>
+  );
+};
+
+export default App;
